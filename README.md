@@ -1,3 +1,3 @@
 # JUST RANDOM NOTES
-Last left off on Python Strings
-Reading the format() Method
+Completed Python While Loops
+Continue with the start of Python For Loops
