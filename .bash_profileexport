@@ -1,3 +1,5 @@
 . ~/.pyenv/versions/3.8.5/bin/virtualenvwrapper.sh WORKON_HOME=/Users/marksilva/.virtualenvs
 . ~/.pyenv/versions/3.8.5/bin/virtualenvwrapper.sh WORKON_HOME=/Users/marksilva/.virtualenvs
 . ~/.pyenv/versions/3.8.5/bin/virtualenvwrapper.sh WORKON_HOME=/Users/marksilva/.virtualenvs
+. ~/.pyenv/versions/3.8.5/bin/virtualenvwrapper.sh WORKON_HOME=/Users/marksilva/.virtualenvs
+. ~/.pyenv/versions/3.8.5/bin/virtualenvwrapper.sh WORKON_HOME=/Users/marksilva/.virtualenvs

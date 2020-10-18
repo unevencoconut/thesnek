@@ -93,7 +93,28 @@ print(c)
 # STRING FORMAT
 # You cant combine strings with numbers using the + operator, BUT
 # You can use the format() method
+# You pass an argument into the format() method and it puts them in the placeholders
 age = 36
 text = "My name is John, and I am {}"
 print(text.format(age))
 
+# The format() Method takes unlimited number or arguments, and are placed into the respective placeholders.
+# UNLIMITED
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity,itemno,price))
+
+# Youc an use index numbers to be sure the arguments are placed in the correct areas
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity,itemno,price))
+
+# ESCAPE CHARACTER
+# To insert characters that are illegal in a string, use an Escape Character
+# This is a Backslash "\" followed by the character you want to insert
+text = "We are the so-called \"Vikings\" from the North."
+print(text)
