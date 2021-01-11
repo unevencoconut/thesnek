@@ -2,6 +2,7 @@
     # A Lambda Function is a Small Anonymouse Function
     # A Lambda can take any number of Arguments,
     # But can only have one Expression
+    # Use Lambda Functions whan an Anon Func is required for short period of time.
 
 # Syntax
 # lambda argument : expression
@@ -21,8 +22,10 @@ print(x(5, 6))
 def myfunc(n):
     return lambda a : a * n
 
-mydoubler = myfunc(2) # Wait ... why does this work?
-print(mydoubler(11))
+# Put the Function in a Variable with the Functions Argument
+mydoubler = myfunc(2) # This is N
+# Then that Variable allows an argument that goes to the Lamba
+print(mydoubler(11)) # This is A
 
 mytripler = myfunc(3)
 print(mytripler(11))
