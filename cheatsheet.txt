@@ -1,4 +1,19 @@
 ---------------------------------------------------
+GENERAL USEFUL BITS
+---------------------------------------------------
+List All Function Names or Variables in Module
+dir()
+
+
+---------------------------------------------------
+VARIABLES AND SCOPE
+---------------------------------------------------
+Scope has higher priority
+Use 'global' keyword when bringing global variable,
+into a local scope.
+Check variables.py line 77 for example.
+
+---------------------------------------------------
 LANGUAGE OVERLAPS
 ---------------------------------------------------
 
